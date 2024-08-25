@@ -7,7 +7,7 @@ const App = () => {
   const [contract, setContract] = useState(null);
   const [betAmount, setBetAmount] = useState('');
   const [result, setResult] = useState('');
-  const contractAddress ='0x206Ed50010d3EF50ef6D7bE01AbA571248EF1990'; // Replace with your deployed contract address
+  const contractAddress ='0x206Ed50010d3EF50ef6D7bE01AbA571248EF1990'; 
   const abi = [  {
     "inputs": [],
     "name": "flip",
